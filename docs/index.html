@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zest B&B | Bloemfontein</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height:1.6;
+    color:#333;
+    background:#fafafa;
+}
+header{
+    background:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('1000195527.jpg') center/cover no-repeat;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+.hero{
+    max-width:800px;
+}
+.hero h1{
+    font-size:4rem;
+    margin-bottom:10px;
+}
+.hero p{
+    font-size:1.3rem;
+    margin-bottom:25px;
+}
+.btn{
+    display:inline-block;
+    background:#0f766e;
+    color:white;
+    padding:14px 28px;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+section{
+    padding:70px 8%;
+}
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+.section-title h2{
+    font-size:2.3rem;
+    color:#0f766e;
+}
+.about{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    align-items:center;
+}
+.about img{
+    width:100%;
+    border-radius:12px;
+}
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+.feature-card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+    text-align:center;
+}
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;
+}
+.gallery img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:12px;
+}
+.info-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+.info-card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+.testimonials{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;
+}
+.testimonial{
+    background:white;
+    padding:25px;
+    border-left:5px solid #0f766e;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+.contact{
+    background:#0f766e;
+    color:white;
+    text-align:center;
+    border-radius:16px;
+}
+.contact h2{
+    margin-bottom:15px;
+}
+footer{
+    text-align:center;
+    padding:25px;
+    background:#111827;
+    color:white;
+}
+@media(max-width:768px){
+    .hero h1{
+        font-size:2.8rem;
+    }
+    .hero p{
+        font-size:1.1rem;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="hero">
+        <h1>Zest B&B</h1>
+        <p>Comfortable, stylish and affordable accommodation in Bloemfontein, South Africa.</p>
+        <a href="tel:+27814899472" class="btn">Book Your Stay</a>
+    </div>
+</header>
+
+<section>
+    <div class="section-title">
+        <h2>Welcome to Zest B&B</h2>
+    </div>
+
+    <div class="about">
+        <div>
+            <h3>Relax in Comfort</h3>
+            <p>
+                Located at 1 Jan Van Riebeeck Street, Bloemfontein, Zest B&B offers clean,
+                comfortable and modern accommodation perfect for solo travellers, couples,
+                families and groups.
+            </p>
+            <br>
+            <p>
+                Enjoy free WiFi, private parking, kitchen facilities and a peaceful stay close
+                to Bloemfontein's top attractions, restaurants and shopping spots.
+            </p>
+        </div>
+
+        <img src="1000195529.jpg" alt="Zest B&B interior">
+    </div>
+</section>
+
+<section style="background:#f0f7f6;">
+    <div class="section-title">
+        <h2>Great For Your Stay</h2>
+    </div>
+
+    <div class="features">
+        <div class="feature-card"><h3>Free WiFi</h3><p>Fast and reliable internet access.</p></div>
+        <div class="feature-card"><h3>Private Parking</h3><p>Safe and secure parking available.</p></div>
+        <div class="feature-card"><h3>Kitchen</h3><p>Convenient self-catering facilities.</p></div>
+        <div class="feature-card"><h3>Pets Allowed</h3><p>Bring your furry companions along.</p></div>
+    </div>
+</section>
+
+<section>
+    <div class="section-title">
+        <h2>Gallery</h2>
+    </div>
+
+    <div class="gallery">
+        <img src="bedroom-updated.jpg" alt="Bedroom">
+        <img src="bathroom-updated.jpg" alt="Bathroom area">
+        <img src="kitchen-updated.jpg" alt="Kitchen">
+    </div>
+</section>
+
+<section style="background:#f0f7f6;">
+    <div class="section-title">
+        <h2>Nearby Attractions</h2>
+    </div>
+
+    <div class="info-grid">
+        <div class="info-card">
+            <h3>Top Attractions</h3>
+            <ul>
+                <li>National Museum Bloemfontein</li>
+                <li>South African Armour Museum</li>
+                <li>Anglo Boer War Museum</li>
+                <li>Oliewenhuis Art Gallery</li>
+            </ul>
+        </div>
+
+        <div class="info-card">
+            <h3>Restaurants & Cafés</h3>
+            <ul>
+                <li>Coobah</li>
+                <li>Coffeebreak</li>
+                <li>59 Plenty</li>
+                <li>Coffee Barrel</li>
+            </ul>
+        </div>
+
+        <div class="info-card">
+            <h3>Convenient Location</h3>
+            <ul>
+                <li>5 min from Bloemfontein transport</li>
+                <li>10 min from Bram Fischer Airport</li>
+                <li>Close to supermarkets & shopping</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="section-title">
+        <h2>Guest Reviews</h2>
+    </div>
+
+    <div class="testimonials">
+        <div class="testimonial">
+            <p>"Everything was great and we even received the WiFi password before arrival."</p>
+            <strong>- Nqandela</strong>
+        </div>
+
+        <div class="testimonial">
+            <p>"Everything was set up perfectly and the rooms were comfortable."</p>
+            <strong>- Lwandile</strong>
+        </div>
+
+        <div class="testimonial">
+            <p>"Location, cleanliness and friendly staff made our stay excellent."</p>
+            <strong>- Nicky</strong>
+        </div>
+
+        <div class="testimonial">
+            <p>"The room was clean and comfortable. Easy to find location."</p>
+            <strong>- Kamohelo</strong>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="contact">
+        <h2>Book Your Stay Today</h2>
+        <p>Check-in: 15:00 – 20:00 | Check-out: 08:00 – 11:00</p>
+        <br>
+        <p>Phone / WhatsApp: +27 81 489 9472</p>
+        <br>
+        <a href="tel:+27814899472" class="btn">Call Now</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Zest B&B • Bloemfontein, South Africa</p>
+</footer>
+
+</body>
+</html>
